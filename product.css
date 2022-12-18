@@ -1,0 +1,137 @@
+.top_contenter_Product {
+  height: max-content;
+}
+
+.div_contenter_Product {
+  margin: 0px 400px;
+  background-color: white;
+  height: max-content;
+}
+.mid_contenter_Product {
+  margin: 0px 400px;
+}
+.div_contenter_Product h2 {
+  font-size: 15px;
+  padding: 10px;
+
+  /* margin: 10px; */
+}
+.div_contenter_Product a {
+  color: rgb(202, 198, 198);
+  font-size: 12px;
+}
+.div_contenter_Product span {
+  font-weight: bold;
+  font-size: 12px;
+}
+#select_product {
+  padding: 10px;
+  margin-left: 10px;
+  /* float:right; */
+}
+.select {
+  float: right;
+  margin-top: -45px;
+  margin-right: 10px;
+}
+.select p {
+  display: inline-block;
+}
+
+.select_product2 {
+  width: 300px;
+  background-color: white;
+  /* border: 1px solid ; */
+  margin: right 20px;
+}
+.mid_contenter_Product {
+  margin-top: 20px;
+}
+.mid_contenter_Product h2 {
+  color: rgb(224, 105, 105);
+  font-size: 15px;
+  background-color: #f3f5f7;
+  padding: 15px 25px;
+}
+
+.check {
+  font-weight: bold;
+}
+._balo a {
+  display: block;
+  color: rgb(44, 44, 46);
+  margin: 0px 0px 0px 10px;
+  padding: 15px;
+  border: 1px solid rgb(250, 247, 247);
+  border-left-style: hidden;
+  border-top-style: hidden;
+  border-right-style: hidden;
+}
+
+.Gia input[type="checkbox"] {
+  font-size: 10px;
+  color: black;
+  margin: 15px 20px;
+}
+
+.list_product {
+  padding-bottom: 930px;
+  margin-left: 350px;
+  margin-top: -1200px;
+}
+
+.product2 {
+  width: 30%;
+  /* display: inline-block; */
+  border: 1px solid rgb(235, 228, 228);
+  margin-right: -4px;
+}
+
+.product2 img {
+  width: 100%;
+}
+
+.contenter {
+  width: 100%;
+}
+
+.butomnav{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    color: rgb(168, 105, 27);
+}
+
+@media screen and (max-width: 768px) {
+  .div_contenter_Product {
+    margin: 0px 0px;
+    background-color: white;
+  }
+  .mid_contenter_Product {
+    margin: 0px 0px;
+  }
+  .select_product2 {
+    display: none;
+  }
+  .div_contenter_Product h2 {
+    text-align: center;
+  }
+  .main {
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  .select > p {
+    display: none;
+  }
+  .select {
+    /* margin-top: 10px; */
+    padding: 10px;
+    text-align: center;
+  }
+  .list_product {
+    display: inline;
+  }
+  .select {
+    float: none;
+  }
+}

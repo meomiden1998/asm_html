@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="mytyle.css">
+    <link rel="stylesheet" href="./info.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="div_header">
+            <div class="top_header">
+                <ul>
+                    <li class="hello">Chào mừng đến với website</li>
+                    <div class="top_header_right">
+                        <li class="cskh"><a href="tel:123456789">chăm sóc khách hàng:0912345678</a></li>
+                        <li class="htch"><a href="">Hệ thống cửa hàng</a></li>
+                        <li class="Thanhtoan"><a href="">Thanh toán</a></li>
+                    </div>
+            </div>
+            </ul>
+
+            <div class="mid_header">
+                <a href="./index.html">
+                    <img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/logo-1.png" alt="logo">
+                </a>
+                <!-- <div class="navbar"> -->
+                <button id="navbar" onclick="openMenu()"> <i class="fa-solid fa-bars"></i>
+                </button>
+                <!-- </div> -->
+                <input type="search" name="search" id="buttom_search" placeholder="   Tìm sản phẩm">
+                <button id="icon_search"><i class="fa fa-search" aria-hidden="false"></i></button>
+                <div class="div_login_gh">
+                    <ul>
+                        <li><a href="#">ĐĂNG NHẬP</a></li>
+                        <li><a href="#"><img
+                                    src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/hd_mainmenu_icon_cart.png"
+                                    alt="">GIỎ HÀNG</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div id="nav1">
+                <div id="navbar1" onclick="closeMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <ul>
+                    <li>
+                        <input s type="search" name="" id="">
+                        <button id="icon_search2"><i class="fa fa-search" aria-hidden="false"></i></button>
+
+                    </li>
+                    <div class="menu">
+
+
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="">Balo</a></li>
+                        <li><a href="">Vali</a></li>
+                        <li><a href="">Túi xách</a></li>
+                        <li><a href="">Cặp Laptop</a></li>
+                        <li><a href="">Phụ Kiện</a></li>
+                        <li><a href="">Khuyến Mãi</a></li>
+                        <li><a href="">Tin Tức</a></li>
+                        <li><a href="">Liên Hệ</a></li>
+                        <li><a href="">Tài Khoản</a></li>
+                        <li><a href="">Giỏ Hàng</a></li>
+                        <li><a href="">Đăng Nhập</a></li>
+                    </div>
+
+                </ul>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class="home"><a href="">Trang chủ</a></li>
+                    <li><a href="">Balo</a></li>
+                    <li><a href="">Vali</a></li>
+                    <li><a href="">Túi xách</a></li>
+                    <li><a href="">Cặp Laptop</a></li>
+                    <li><a href="">Phụ kiện</a></li>
+                    <li class="KM"><a href="">Khuyến Mại
+                            <ul class="subNav">
+                                <li><a href="">Deal Cuối tuần</a></li>
+                                <li><a href="">Kinh nghiệm hay</a></li>
+                            </ul>
+                        </a></li>
+                    <li><a href="">Tin tức</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                    <li><a href="">Tài khoản</a></li>
+                    <li><a href="">Giở hàng</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="_product">
+        <div class="link">
+            <a href="./index.html">Trang chủ</a>
+            <a href="./product.html"> / Balo</a>
+        </div>
+        <div class="info_balo">
+            <div class="img_balo">
+                <img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/seliux-g1-raptor-backpack-m-black-3-1024-600x600.jpg"
+                    alt="">
+            </div>
+            <div class="img_balo2">
+                <div class="content_balo">
+                    <h2>Vali Rovigo RECA</h2>
+                    <br>
+                    <del>3,700,000₫ </del><span>1,990,000₫</span>
+                    <br>
+
+                    <p>KHÁCH HÀNG CHỌN 1 TRONG 2 KHUYẾN MẠI SAU:</p>
+                    <br>
+
+                    <ul>
+                        <li><strong>KM1: </strong>Tặng kèm cặp Laptop thời trang</li>
+                        <br>
+
+                        <li><strong>KM2: </strong> <span>Giảm ngay 100,000đ khi khách hàng mua Online với đơn hàng giá
+                                trị từ 1,000,000đ</span></li>
+                    <br>
+
+                        <li><strong>KHÁCH HÀNG ĐƯỢC KHUYẾN MẠI THÊM:</strong><span>Giảm thêm 1,000,000đ khi mua combo
+                                (iPhone + Apple Watch) Giảm thêm 500,000đ khi mua combo <br> (iPhone + Airpods)</span>
+                        </li>
+                        <br>
+                    </ul>
+                    <button onclick="volumdown()" id="volumdown">-</button>
+                    <input id="input" type="text" value="1">
+                    <button id="volumup">+</button>
+                    <button id="submit">Mua hàng</button>
+                    <br>
+                    <button id="submit2">
+                        <h2>Mua ngay</h2>
+                        <p>Gọi điện xác nhận và giao hàng tận nới</p>
+                    </button>
+                    <hr>
+                    <span>Danh mục :
+                        <a href="">Balo</a>
+                        <a href="">Cặp Laptop</a>
+                        <a href="">Túi xách</a>
+                        <a href="">Vali</a>
+                    </span>
+                    <br>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div id="produt_foot">
+        <hr>
+        <div class="div_product_foot">
+            <ul>
+                <li onclick="chech(`mota`)" id="mota">MÔ TẢ</li>
+                <li onclick="chech(`ttbs`)" id="ttbs">THÔNG TIN BỔ SUNG</li>
+                <li onclick="chech(`dg`)" id="dg">ĐÁNH GIÁ</li>
+            </ul>
+            <hr>
+        </div>
+        <div class="info_product_foot">
+            <div id="info_mota">
+                <strong>Rovigo Anakin 2 TE_20 S Sea Blue</strong>
+                <span>là dòng vali của thương hiệu Rovigo. Rovigo được biết đến và yêu thích bởi chất lượng sản phẩm
+                    tốt, bền bỉ và thiết kế sang trọng, tinh tế. Thương hiệu Rovigo luôn không ngừng đổi mới và phát
+                    triển, thường xuyên cho ra mắt sản phẩm mới phù hợp với thị hiếu của khách hàng. <br> <br> <br>
+                    Rovigo Anakin 2 TE dòng sản phẩm của thương hiệu Rovigo thiết kế theo phong cách mới lạ, màu sắc nổi
+                    bật, bề mặt nhám phối hợp với vân sáng thời trang và hiện đại.
+                </span>
+                <br> <br>
+                <h2>Ưu điểm của Rovigo Anakin 2 TE</h2>
+                <br>
+                <strong>Chất liệu cực tốt</strong>
+                <br>
+                <br>
+                <span>Vali Rovigo Anakin 2 TE được làm từ chất liệu nhựa 100% PP, dẻo, tránh va đập, trong lúc vận
+                    chuyển vali hoặc bạn di chuyển cùng vali trên đường có thể an tâm về độ chắc chắn của vali
+                    Rovigo.</span>
+                <br>
+                <br>
+                <i>Chất liệu nhựa 100% chưa qua tái chế</i>
+                <br>
+                <br>
+                <span>Đây là chất liệu nguyên chất chưa qua tái chế nên bạn khi sử dụng thì hoàn toàn yên tâm về độ bền
+                    của sản phẩm nhé!</span>
+                <br><br>
+
+                <strong>Dây kéo đôi và khóa số TSA an toàn</strong><br>
+                <br> <br>
+                <span>Vali được thiết kế khóa số TSA theo tiêu chuẩn Mỹ được Cục An Ninh Hoa Kì chứng nhận về độ an toàn
+                    tuyệt đối của vali bảo vệ đồ đạc bên trong khỏi tránh mất cắp. </span>
+                <br><br>
+                <span>Vali Rovigo Anakin 2 TE được thiết kế khóa đôi chống rạch kết hợp khóa số TSA giúp vali tăng gấp
+                    đôi khả năng bảo vệ an toàn tuyệt đối cho vali cùng với đồ đạc bên trong của bạn.</span>
+            </div>
+
+            <div class="infottbs">
+                <table>
+                    <tr>
+                        <th>Giá</th>
+                        <td>
+                            < 200.000 đ, 1.000.000 – 2.000.000 đ, 2.000.000 đ, 200.000 – 500.000 đ, 500.000 – 1.000.000
+                                đ</td>
+                    </tr>
+
+                    <tr>
+                        <th>NHÀ CUNG CẤP</th>
+                        <td>Adidas, Cartinoe, Hoàng Quân, Lining, Nike, Xiaomi</td>
+                    </tr>
+                    <tr>
+                        <th>XUẤT XỨ</th>
+                        <td>
+                            Anh, Canada, Hàn Quốc, Mỹ, Nhật, Pháp, Thổ Nhĩ Kỳ, Úc</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="info_dg">
+                <div class="status">
+                    <h2>Đánh giá</h2>
+                    <p>Chưa có đánh giá nào.</p>
+                </div>
+
+                <div class="div_form">
+                    <h2>Hãy là người đầu tiên nhận xét “Vali Rovigo RECA” </h2>
+                    <strong>Đánh giá của bạn</strong>
+                    <br>
+                    <div onclick="feenback(`start1`)" class="start1"><i class="fa-regular fa-star"></i></div>
+                    <div onclick="feenback(`start2`)" class="start2"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div onclick="feenback(`start3`)" class="start3"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></div>
+                    <div onclick="feenback(`start4`)" class="start4"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div onclick="feenback(`start5`)" class="start5"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                            class="fa-regular fa-star"></i></div>
+                    <br>
+                    <strong>Nhận xét của bạn*</strong>
+                    <br>
+                    <textarea name="" id="" cols="140" rows="5"></textarea>
+                    <br>
+                    <table class="table">
+                        <tr>
+                            <th>Tên*</th>
+                            <th>Email</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="email" name="" id=""></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="gn">
+                    <input type="checkbox" name="" id="checkbox">
+                    <strong>Lưu tên của tôi, email, và trang web trong trình duyệt này cho lần bình luận kế tiếp của
+                        tôi.</strong>
+                    </div>
+                    <br>
+                    <button class="guidi">Gửi đi</button>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="div_footer">
+          <div class="info1">
+            <h2>THÔNG TIN CÔNG TY</h2>
+            <ul>
+              <li><a href="">Chăm sóc khách hàng: 0986989626</a></li>
+              <li><a href="">Hệ thống cửa hàng</a></li>
+              <li><a href="">Thanh toán</a></li>
+            </ul>
+          </div>
+    
+          <div class="info">
+    
+            <h2>CHÍNH SÁCH</h2>
+            <ul>
+              <li><a href="">Giới thiệu công ty</a></li>
+              <li><a href="">Tiêu chí bán hàng</a></li>
+              <li><a href="">Đối tác chiến lược</a></li>
+              <li><a href="">Hệ thống trung tâm</a></li>
+              <li><a href="">Tuyển dụng</a></li>
+    
+            </ul>
+          </div>
+          <div class="info">
+    
+            <h2>HỖ TRỢ KHÁCH HÀNG</h2>
+            <ul>
+              <li><a href="">Giới thiệu công ty</a></li>
+              <li><a href="">Tiêu chí bán hàng</a></li>
+              <li><a href="">Đối tác chiến lược</a></li>
+              <li><a href="">Hệ thống trung tâm</a></li>
+              <li><a href="">Tuyển dụng</a></li>
+    
+            </ul>
+          </div>
+          <div class="info">
+    
+            <h2>THÔNG TIN</h2>
+            <ul>
+              <li><a href="">Giới thiệu công ty</a></li>
+              <li><a href="">Tiêu chí bán hàng</a></li>
+              <li><a href="">Đối tác chiến lược</a></li>
+              <li><a href="">Hệ thống trung tâm</a></li>
+              <li><a href="">Tuyển dụng</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <HR></HR>
+        <div class="TTTT">
+          <div class="tt1">
+            <h2>PHƯƠNG THỨC THANH TOÁN</h2>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_7.png" alt=""></span>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_6.png" alt=""></span>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_5.png" alt=""></span>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_4.png" alt=""></span>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_3.png" alt=""></span>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_2.png" alt=""></span>
+            <span><img src="http://balo.sharekhoahoc.vn/wp-content/uploads/2020/08/payment_1.png" alt=""></span>
+    
+    
+    
+          </div>
+          <div class="tt2">
+            <h2>KẾT NỐI VỚI CHÚNG TÔI</h2>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+    
+    
+    
+    
+          </div>
+          <div class="tt3">
+          <h2>Đăng Kí Nhận Thông Tin</h2>
+          <span>Nhận thông tin sản phẩm mới nhất, tin khuyến mãi <br>và nhiều hơn nữa.</span>
+          <br>
+          <input type="email" name="email" id="email" placeholder=" Emai của bạn"><button>Đăng Kí</button>
+    
+    
+    
+    
+    
+          </div>
+    
+        </div>
+        <div class="end">
+          <p><span>Copyright 2022</span> © <strong>Thiết kế website Hà Nội</strong> <span>bởi Topweb.com.vn</span></p>
+        </div>
+      </div>
+
+
+
+</body>
+
+</html>
